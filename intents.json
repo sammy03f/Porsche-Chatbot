@@ -1,0 +1,26 @@
+{"intents": [
+  {
+    "tag": "greetings",
+    "patterns": ["Hello", "Hey", "Hi", "Good Day", "greetings", "whats up", "good day"],
+    "responses": ["Hello! This is a Porsche questionnaire ChatBot", "Hey! This is a Porsche questionnaire ChatBot","Nice to meet you. This is a Porsche questionnaire ChatBot"]
+  },
+
+  {
+    "tag": "questions1",
+    "patterns": ["When was the first Porsche made", "Porsche", "what are the different porsche models", "porsche models", "models"],
+    "responses": ["The first Porsche was made in in 1948 with the Type 356", "Porsche is a German automobile manufacturer specializing in luxury, high-performance sports cars, SUVs and sedans, headquartered in Stuttgart, Baden-Württemberg, Germany.","The current models offered by Porsche are: 718, 911, Taycan, Panamera, Macan, Cayenne."]
+  },
+
+  {
+    "tag": "questions2",
+    "patterns": ["what is the fastest porsche", "what is the most expensive porsche","average price of a porsche", "the rarest porsche", "the highest speed reached by a porsche", "the most luxurious porsche"],
+    "responses": ["The 918 Spyder paired a 4.6-litre V8 with twin electric motors is the fastest porsche, able to give the driver a combined 899PS of power and experience a 0-100km/h time of just 2.6 seconds.", "The most expensive Porsche ever sold was a 1970 Porsche 917k which was marketed at $14 million.", "The Porsche 935 'Street' slant nose is considered the rarest Porsche to this day, with only one ever being manufactured.","The highest speed ever reached by a Porsche was notably awarded to the 918 Spyder which reached a terminal speed of 239 MPH"]
+  },
+
+  {
+    "tag": "goodbye",
+    "patterns": ["thank you","goodbye","have a great day", "adios", "much appreciated"],
+    "responses": ["Thank you for using Sammy's Porsche Manual"]
+  }
+
+]}
